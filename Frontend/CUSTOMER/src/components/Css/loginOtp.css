@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E7EEE1;
+  }
+   
+  .container6 {
+    display: flex;
+    height: 100vh;
+    padding: 20px;
+  }
+   
+  .left, .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .illustration img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+   
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80px;
+  }
+   
+  .reset-password-form {
+    padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 40%;
+    margin-bottom: 10%;
+  }
+   
+  /* Email section */
+  .email-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+   
+  .email-section label {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    color: #333333;
+   
+  }
+   
+  .Input {
+    font-family: Raleway, sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 7px;
+    background-color: #e7eee1;
+    padding: 12px;
+    width: 200px;
+  }
+   
+  .form-group label {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    color: #333333;
+    margin-right: 190px;
+  }
+   
+  .email-section .email-input,
+  .form-group input {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    outline: none;
+    width: 100%; /* Adjusted to full width */
+    margin-right: 10px;
+    background-color: #E7EEE1;
+    transition: border-color 0.2s;
+    margin-bottom: 20px;
+  }
+  /*
+  .email-section input:focus,
+  .form-group input:focus {
+    border-color: #6ca82d;
+  } */
+   
+  .get-otp,
+  .get-otp2,
+  .verify-btn,
+  .reset-password {
+    width: 100%; /* Adjusted to full width */
+    padding: 10px;
+    border: none;
+    background-color: #5f7a61;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.2s;
+  }
+   
+  .get-otp:hover,
+  .get-otp2:hover,
+  .verify-btn:hover,
+  .reset-password:hover {
+    background-color: #5b8a24;
+  }
+   
+  /* OTP input fields */
+  .otp-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+   
+  .otp-field {
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    background-color: #E7EEE1;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+   
+  .otp-field:focus {
+    border-color: #6ca82d;
+  }
+   
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .reset-password-form {
+      margin-right: 0;
+      padding: 20px;
+    }
+   
+    .form-group label {
+      margin-right: 0;
+    }
+  }

@@ -1,0 +1,93 @@
+/* PersonalDetailsForm.css */
+ 
+.capital-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #5f7a61;
+    padding: 20px;
+  }
+   
+  .capital-title {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 10px;
+  }
+   
+  .capital-form-container {
+    background-color: #e7eee1;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    width: 70%;
+    margin: 10px auto; /* Center the form horizontally */
+    max-width: 800px; /* Limit maximum width */
+  }
+   
+  .capital-form-heading {
+    font-size: 35px;
+    color: #fff;
+    text-align: center; /* Center align the heading */
+    margin-bottom: 20px;
+  }
+   
+  .capital-otp-success {
+    color: black;
+    text-align: center; /* Center align the success message */
+    margin-top: -14px;
+  }
+   
+  .capital-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+   
+  .capital-form-row {
+    display: flex;
+    flex-wrap: wrap; /* Ensure form rows wrap on smaller screens */
+  }
+   
+  .capital-form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; /* Add spacing between form groups */
+  }
+   
+  .capital-form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: black;
+  }
+   
+  .capital-form-group input,
+  .capital-form-group select {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 1px;
+    background-color: #e7eee1;
+    width: 100%; /* Make inputs and selects full width */
+  }
+   
+  .capital-submit-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4a5d23;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 50%; /* Adjust button width as needed */
+    max-width: 200px; /* Limit maximum width */
+    margin: 0 auto; /* Center the button */
+    text-align: center; /* Center align button text */
+  }
+   
+  .capital-submit-btn:hover {
+    background-color: #697f32;
+  }

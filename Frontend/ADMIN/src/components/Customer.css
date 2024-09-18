@@ -1,0 +1,59 @@
+.customer-content {
+    padding: 20px;
+  }
+  
+  .search-sort-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-sort-filter input[type="text"],
+  .search-sort-filter input[type="date"] {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .sort-options,
+  .filter-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sort-options label,
+  .filter-options label {
+    margin-right: 10px;
+  }
+  
+  .customer-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .customer-table th,
+  .customer-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .customer-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
